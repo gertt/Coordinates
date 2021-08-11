@@ -1,0 +1,30 @@
+2021-08-11 23:05:16,213 DEBUG http-nio-8081-exec-3 c.e.d.c.CoordinatesController:22 ||||Execute Service/new-coordinate parameter: com.example.demo.entity.Coordinates@42f8376a
+2021-08-11 23:05:16,222  INFO http-nio-8081-exec-3 c.e.d.c.CoordinatesController:25 ||||Execute Service/new-coordinate response: com.example.demo.entity.Coordinates@42f8376a
+2021-08-11 23:06:21,243  INFO main c.e.d.DemoApplication:55 ||||Starting DemoApplication using Java 1.8.0_202 on Gertis-MBP with PID 32737 (/Users/gertiprifti/IdeaProjects/demo/target/classes started by gertiprifti in /Users/gertiprifti/IdeaProjects/demo)
+2021-08-11 23:06:21,246 DEBUG main c.e.d.DemoApplication:56 ||||Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-11 23:06:21,246  INFO main c.e.d.DemoApplication:659 ||||No active profile set, falling back to default profiles: default
+2021-08-11 23:06:23,541  INFO main c.e.d.DemoApplication:61 ||||Started DemoApplication in 22.618 seconds (JVM running for 28.009)
+2021-08-11 23:06:24,858 DEBUG http-nio-8081-exec-2 c.e.d.c.CoordinatesController:22 ||||Execute Service/new-coordinate parameter: Coordinates{id=null, name='test4', lat=19.74, lng=67.864, type='normal'}
+2021-08-11 23:06:24,910 DEBUG http-nio-8081-exec-2 c.e.d.c.CoordinatesController:25 ||||Execute Service/new-coordinate response: Coordinates{id=29, name='test4', lat=19.74, lng=67.864, type='normal'}
+2021-08-11 23:06:41,859 DEBUG http-nio-8081-exec-3 c.e.d.c.CoordinatesController:35 ||||Execute Service/get-coordinates parameter: CoordinatesModel{latFirstPoint=11.1, lngFirstPoint=11.2, latSecondPoint=100.0, lngSecondPoint=100.0, type='', limit=null}
+2021-08-11 23:06:41,887 DEBUG http-nio-8081-exec-3 c.e.d.c.CoordinatesController:38 ||||Execute Service/get-coordinates response: Page 1 of 28 containing com.example.demo.entity.Coordinates instances
+2021-08-11 23:09:38,438  INFO main c.e.d.DemoApplication:55 ||||Starting DemoApplication using Java 1.8.0_202 on Gertis-MBP with PID 33050 (/Users/gertiprifti/IdeaProjects/demo/target/classes started by gertiprifti in /Users/gertiprifti/IdeaProjects/demo)
+2021-08-11 23:09:38,440 DEBUG main c.e.d.DemoApplication:56 ||||Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-11 23:09:38,441  INFO main c.e.d.DemoApplication:659 ||||No active profile set, falling back to default profiles: default
+2021-08-11 23:09:40,784  INFO main c.e.d.DemoApplication:61 ||||Started DemoApplication in 22.665 seconds (JVM running for 28.063)
+2021-08-11 23:09:40,982 DEBUG http-nio-8081-exec-2 c.e.d.c.CoordinatesController:22 ||||Execute Service/new-coordinate parameter: Coordinates{id=null, name='test4', lat=19.74, lng=67.864, type='normal'}
+2021-08-11 23:09:40,983 ERROR http-nio-8081-exec-2 c.e.d.c.CoordinatesController:28 ||||Execute Service/new-coordinate exeption:
+2021-08-11 23:13:13,169  INFO main c.e.d.DemoApplication:55 ||||Starting DemoApplication using Java 1.8.0_202 on Gertis-MBP with PID 33385 (/Users/gertiprifti/IdeaProjects/demo/target/classes started by gertiprifti in /Users/gertiprifti/IdeaProjects/demo)
+2021-08-11 23:13:13,172 DEBUG main c.e.d.DemoApplication:56 ||||Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-11 23:13:13,173  INFO main c.e.d.DemoApplication:659 ||||No active profile set, falling back to default profiles: default
+2021-08-11 23:13:15,511  INFO main c.e.d.DemoApplication:61 ||||Started DemoApplication in 22.653 seconds (JVM running for 28.051)
+2021-08-11 23:13:15,909 DEBUG http-nio-8081-exec-2 c.e.d.c.CoordinatesController:22 ||||Execute Service/new-coordinate parameter: Coordinates{id=null, name='test4', lat=19.74, lng=67.864, type='normal'}
+2021-08-11 23:13:15,910 ERROR http-nio-8081-exec-2 c.e.d.c.CoordinatesController:28 ||||Execute Service/new-coordinate exeption: java.lang.NullPointerException
+2021-08-11 23:30:35,249 DEBUG http-nio-8081-exec-4 c.e.d.c.CoordinatesController:22 ||||Execute Service/new-coordinate parameter: Coordinates{id=null, name='test4', lat=19.74, lng=67.864, type='normal'}
+2021-08-11 23:30:35,258 ERROR http-nio-8081-exec-4 c.e.d.c.CoordinatesController:28 ||||Execute Service/new-coordinate exeption: java.lang.NullPointerException
+2021-08-11 23:31:09,333  INFO main c.e.d.DemoApplication:55 ||||Starting DemoApplication using Java 1.8.0_202 on Gertis-MBP with PID 35071 (/Users/gertiprifti/IdeaProjects/demo/target/classes started by gertiprifti in /Users/gertiprifti/IdeaProjects/demo)
+2021-08-11 23:31:09,336 DEBUG main c.e.d.DemoApplication:56 ||||Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-11 23:31:09,336  INFO main c.e.d.DemoApplication:659 ||||No active profile set, falling back to default profiles: default
+2021-08-11 23:31:11,653  INFO main c.e.d.DemoApplication:61 ||||Started DemoApplication in 22.648 seconds (JVM running for 28.054)
+2021-08-11 23:31:15,324 DEBUG http-nio-8081-exec-2 c.e.d.c.CoordinatesController:23 ||||Execute Service/new-coordinate parameter: Coordinates{id=null, name='test4', lat=19.74, lng=67.864, type='normal'}
+2021-08-11 23:31:15,377 DEBUG http-nio-8081-exec-2 c.e.d.c.CoordinatesController:26 ||||Execute Service/new-coordinate response: Coordinates{id=30, name='test4', lat=19.74, lng=67.864, type='normal'}
